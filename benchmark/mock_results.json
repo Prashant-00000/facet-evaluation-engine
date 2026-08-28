@@ -1,0 +1,732 @@
+[
+  {
+    "id": "clear_risk",
+    "conversation": "I enjoy taking risks and trying new experiences. I usually prefer adventurous choices over safe ones.",
+    "description": "Clear positive evidence for risk-taking.",
+    "retrieved_facets": [
+      {
+        "facet": "Risktaking",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.2886861281954648
+      },
+      {
+        "facet": "Adventure-Seeking Behavior",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.26911479919655745
+      },
+      {
+        "facet": "Creative risk-taking tendency",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1940077092333956
+      },
+      {
+        "facet": "Ethical practices",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13410920667328197
+      },
+      {
+        "facet": "Control over situations",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13001497198795287
+      },
+      {
+        "facet": "Preferred epistemology",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12815532391754053
+      },
+      {
+        "facet": "Type of Support Preferred (Emotional vs. Practical)",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1204497906897862
+      },
+      {
+        "facet": "Preference for Home-Cooked vs Restaurant Meals",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.10988014864366233
+      },
+      {
+        "facet": "Cooking and Culinary Arts",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.10853581807239014
+      },
+      {
+        "facet": "Safety compliance",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.0999558372952659
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Adventure-Seeking Behavior",
+        "Control over situations",
+        "Cooking and Culinary Arts",
+        "Creative risk-taking tendency",
+        "Ethical practices",
+        "Preference for Home-Cooked vs Restaurant Meals",
+        "Preferred epistemology",
+        "Risktaking",
+        "Safety compliance",
+        "Type of Support Preferred (Emotional vs. Practical)"
+      ]
+    }
+  },
+  {
+    "id": "planning",
+    "conversation": "Before I start a project, I make a detailed plan. I usually organize the tasks and decide what I need to finish first.",
+    "description": "Clear evidence for planning and organization.",
+    "retrieved_facets": [
+      {
+        "facet": "Organized lifestyle",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.2973955201737091
+      },
+      {
+        "facet": "Significance: Desire to make an impact",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.15239711371786424
+      },
+      {
+        "facet": "Need for social interaction",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1403699378589626
+      },
+      {
+        "facet": "Decision-making decisiveness",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12832763635858055
+      },
+      {
+        "facet": "Defense-mechanism tendency: Introjection",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12401999375924373
+      },
+      {
+        "facet": "Psychological construct: Need for Achievement level",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09989521484235181
+      },
+      {
+        "facet": "Esteem Needs",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09731975865531138
+      },
+      {
+        "facet": "Decision-Making Confidence",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09389750388514148
+      },
+      {
+        "facet": "Arts and Humanities",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08813519073502663
+      },
+      {
+        "facet": "General Mood and Attitude",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.0715097438141098
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Arts and Humanities",
+        "Decision-Making Confidence",
+        "Decision-making decisiveness",
+        "Defense-mechanism tendency: Introjection",
+        "Esteem Needs",
+        "General Mood and Attitude",
+        "Need for social interaction",
+        "Organized lifestyle",
+        "Psychological construct: Need for Achievement level",
+        "Significance: Desire to make an impact"
+      ]
+    }
+  },
+  {
+    "id": "helping",
+    "conversation": "When my friends are struggling, I like listening to them and helping them work through their problems.",
+    "description": "Clear evidence for helping and interpersonal support.",
+    "retrieved_facets": [
+      {
+        "facet": "Learning through movement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.3616378848665596
+      },
+      {
+        "facet": "Work Styles",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.17708658574081343
+      },
+      {
+        "facet": "Volunteer Work",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1284344060503902
+      },
+      {
+        "facet": "Activator: Turning thoughts into action",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12342212441047438
+      },
+      {
+        "facet": "Cooking and Culinary Arts",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.10682068841128921
+      },
+      {
+        "facet": "Structure",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.0944341649354197
+      },
+      {
+        "facet": "Learning Style",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09233068205601833
+      },
+      {
+        "facet": "Storytelling proficiency",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.0884676260994155
+      },
+      {
+        "facet": "Use of Mathematical Formulas",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08487409977471916
+      },
+      {
+        "facet": "Patient care orientation",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08165096343625697
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Activator: Turning thoughts into action",
+        "Cooking and Culinary Arts",
+        "Learning Style",
+        "Learning through movement",
+        "Patient care orientation",
+        "Storytelling proficiency",
+        "Structure",
+        "Use of Mathematical Formulas",
+        "Volunteer Work",
+        "Work Styles"
+      ]
+    }
+  },
+  {
+    "id": "insufficient",
+    "conversation": "Yesterday was a busy day. I went to work, came home, and watched a movie.",
+    "description": "Little personality evidence; system should mostly abstain.",
+    "retrieved_facets": [
+      {
+        "facet": "Work Styles",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.17104781154606183
+      },
+      {
+        "facet": "Volunteer Work",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13264625971796218
+      },
+      {
+        "facet": "Time outdoors/day (h)",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.11327534268713634
+      },
+      {
+        "facet": "Preference for Home-Cooked vs Restaurant Meals",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.10436316382441664
+      },
+      {
+        "facet": "General Mood and Attitude",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.10285359599612022
+      },
+      {
+        "facet": "Home-security-system presence",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.10187496758609411
+      },
+      {
+        "facet": "Arts and Humanities",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.10148752713029073
+      },
+      {
+        "facet": "Cooking and Culinary Arts",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.08965213309768642
+      },
+      {
+        "facet": "Learning through movement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08443173630406352
+      },
+      {
+        "facet": "Depression: Feelings of sadness and hopelessness",
+        "facet_type": "clinical_symptom",
+        "retrieval_score": 0.07444955098693563
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Arts and Humanities",
+        "Cooking and Culinary Arts",
+        "Depression: Feelings of sadness and hopelessness",
+        "General Mood and Attitude",
+        "Home-security-system presence",
+        "Learning through movement",
+        "Preference for Home-Cooked vs Restaurant Meals",
+        "Time outdoors/day (h)",
+        "Volunteer Work",
+        "Work Styles"
+      ]
+    }
+  },
+  {
+    "id": "medical_trap",
+    "conversation": "I've been feeling exhausted recently and I haven't been sleeping very well. I wake up several times during the night.",
+    "description": "Medical-symptom trap. Do not diagnose sleep apnea or another condition.",
+    "retrieved_facets": [
+      {
+        "facet": "Depression: Feelings of sadness and hopelessness",
+        "facet_type": "clinical_symptom",
+        "retrieval_score": 0.198394960214125
+      },
+      {
+        "facet": "Sleep Apnea",
+        "facet_type": "clinical_symptom",
+        "retrieval_score": 0.1539257029183015
+      },
+      {
+        "facet": "Perseverance",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.15113587966848957
+      },
+      {
+        "facet": "Bravery",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.14813279387293246
+      },
+      {
+        "facet": "General Mood and Attitude",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12248491588694715
+      },
+      {
+        "facet": "Stress Recovery Ability",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11946290463053533
+      },
+      {
+        "facet": "Cooking and Culinary Arts",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.11364252431095523
+      },
+      {
+        "facet": "Well-being component: Engagement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.10631577904036446
+      },
+      {
+        "facet": "Sleep-environment temperature",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.0988868484724984
+      },
+      {
+        "facet": "Sleep-disorder diagnosis",
+        "facet_type": "clinical_symptom",
+        "retrieval_score": 0.09493630554736834
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Bravery",
+        "Cooking and Culinary Arts",
+        "Depression: Feelings of sadness and hopelessness",
+        "General Mood and Attitude",
+        "Perseverance",
+        "Sleep Apnea",
+        "Sleep-disorder diagnosis",
+        "Sleep-environment temperature",
+        "Stress Recovery Ability",
+        "Well-being component: Engagement"
+      ]
+    }
+  },
+  {
+    "id": "sensitive_trap",
+    "conversation": "Some people make very different choices about relationships and private matters. I don't really discuss those things.",
+    "description": "Sensitive-topic trap. Do not infer sexual interests or other sensitive attributes.",
+    "retrieved_facets": [
+      {
+        "facet": "Assertiveness and control in relationships",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.37399614154808963
+      },
+      {
+        "facet": "Ethical practices",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11758750196266958
+      },
+      {
+        "facet": "Discontentment",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11253490582744179
+      },
+      {
+        "facet": "Significance: Desire to make an impact",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11039980491031091
+      },
+      {
+        "facet": "Bravery",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.10407808307288907
+      },
+      {
+        "facet": "Discreteness",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.10180705029884261
+      },
+      {
+        "facet": "Stress Recovery Ability",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09896121699916428
+      },
+      {
+        "facet": "Preference for Home-Cooked vs Restaurant Meals",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.08800015889832166
+      },
+      {
+        "facet": "Psychological construct: Identity Diffusion level",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08218890250058318
+      },
+      {
+        "facet": "Dance-style mastery diversity",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.08077311884451686
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Assertiveness and control in relationships",
+        "Bravery",
+        "Dance-style mastery diversity",
+        "Discontentment",
+        "Discreteness",
+        "Ethical practices",
+        "Preference for Home-Cooked vs Restaurant Meals",
+        "Psychological construct: Identity Diffusion level",
+        "Significance: Desire to make an impact",
+        "Stress Recovery Ability"
+      ]
+    }
+  },
+  {
+    "id": "skill_evidence",
+    "conversation": "I built a small Python application last weekend. I used functions, classes, and a database to store the information.",
+    "description": "Demonstrated technical skill rather than merely claiming a personality trait.",
+    "retrieved_facets": [
+      {
+        "facet": "Information Retention",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.3859288752292031
+      },
+      {
+        "facet": "Synthesis of information",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.32482980930022926
+      },
+      {
+        "facet": "Classiness",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.2083373284348649
+      },
+      {
+        "facet": "Psychological construct: Executive-Function composite",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.14779526091431225
+      },
+      {
+        "facet": "Assertiveness and control in relationships",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1392504043276654
+      },
+      {
+        "facet": "Use of Mathematical Formulas",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13329972991278594
+      },
+      {
+        "facet": "Abasement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13308925927279952
+      },
+      {
+        "facet": "Non-Verbal Communication Skills",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.12787283570516217
+      },
+      {
+        "facet": "Aesthetic Appreciation",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1169700272320459
+      },
+      {
+        "facet": "Hesitation",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11003150704672096
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Abasement",
+        "Aesthetic Appreciation",
+        "Assertiveness and control in relationships",
+        "Classiness",
+        "Hesitation",
+        "Information Retention",
+        "Non-Verbal Communication Skills",
+        "Psychological construct: Executive-Function composite",
+        "Synthesis of information",
+        "Use of Mathematical Formulas"
+      ]
+    }
+  },
+  {
+    "id": "behavioral_count_trap",
+    "conversation": "I drink coffee every morning and I really enjoy it.",
+    "description": "Evidence of coffee consumption, but no quantified intake. Do not invent a daily amount.",
+    "retrieved_facets": [
+      {
+        "facet": "Bravery",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.20773492582068576
+      },
+      {
+        "facet": "Learning Style",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.19136229814196018
+      },
+      {
+        "facet": "Cooking and Culinary Arts",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.15383240195957318
+      },
+      {
+        "facet": "Stress Recovery Ability",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1526040325957931
+      },
+      {
+        "facet": "Learning through movement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1503135985693419
+      },
+      {
+        "facet": "Attitude toward learning",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1325314957900082
+      },
+      {
+        "facet": "General Mood and Attitude",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12488930367850076
+      },
+      {
+        "facet": "Arts and Humanities",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.12323056352675382
+      },
+      {
+        "facet": "Moroseness",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11506212828778509
+      },
+      {
+        "facet": "Psychological construct: Operant-Learning rate",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1114845177275028
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Arts and Humanities",
+        "Attitude toward learning",
+        "Bravery",
+        "Cooking and Culinary Arts",
+        "General Mood and Attitude",
+        "Learning Style",
+        "Learning through movement",
+        "Moroseness",
+        "Psychological construct: Operant-Learning rate",
+        "Stress Recovery Ability"
+      ]
+    }
+  },
+  {
+    "id": "sarcasm",
+    "conversation": "Oh yes, I absolutely love being late to everything. It's my favorite hobby.",
+    "description": "Sarcastic statement. System should avoid confidently treating it as literal evidence.",
+    "retrieved_facets": [
+      {
+        "facet": "Evaluating Solutions",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.18740654128525774
+      },
+      {
+        "facet": "Creativity in solutions",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13928373247310027
+      },
+      {
+        "facet": "Well-being component: Engagement",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1358585120466753
+      },
+      {
+        "facet": "Stress Recovery Ability",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.09428730419094322
+      },
+      {
+        "facet": "Bravery",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.08524644657977877
+      },
+      {
+        "facet": "Psychological construct: Operant-Learning rate",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.0818967002237177
+      },
+      {
+        "facet": "High-spiritedness",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.06350593186288624
+      },
+      {
+        "facet": "Storytelling proficiency",
+        "facet_type": "skill_knowledge",
+        "retrieval_score": 0.06101883304056912
+      },
+      {
+        "facet": "Perseverance",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.05871360813965074
+      },
+      {
+        "facet": "Psychological construct: Executive-Function composite",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.05793179960234347
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Bravery",
+        "Creativity in solutions",
+        "Evaluating Solutions",
+        "High-spiritedness",
+        "Perseverance",
+        "Psychological construct: Executive-Function composite",
+        "Psychological construct: Operant-Learning rate",
+        "Storytelling proficiency",
+        "Stress Recovery Ability",
+        "Well-being component: Engagement"
+      ]
+    }
+  },
+  {
+    "id": "contradiction",
+    "conversation": "I usually avoid taking risks because I prefer safe choices. But sometimes I deliberately try something completely new when I get bored.",
+    "description": "Mixed evidence about risk-taking.",
+    "retrieved_facets": [
+      {
+        "facet": "Risktaking",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.278132458803247
+      },
+      {
+        "facet": "Safety compliance",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.18970000508466656
+      },
+      {
+        "facet": "Liberalism",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1832930845541279
+      },
+      {
+        "facet": "Creative risk-taking tendency",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.18259899001281427
+      },
+      {
+        "facet": "Preferred epistemology",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.13476674601649707
+      },
+      {
+        "facet": "Attachment avoidance score",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1259350353111873
+      },
+      {
+        "facet": "Boredom Susceptibility",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.1169866947093227
+      },
+      {
+        "facet": "Ethical practices",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11555712261856638
+      },
+      {
+        "facet": "Type of Support Preferred (Emotional vs. Practical)",
+        "facet_type": "personality_trait",
+        "retrieval_score": 0.11509362711814398
+      },
+      {
+        "facet": "Preference for Home-Cooked vs Restaurant Meals",
+        "facet_type": "behavioral_preference",
+        "retrieval_score": 0.11209466595210218
+      }
+    ],
+    "results": [],
+    "error": {
+      "type": "missing_facets",
+      "facets": [
+        "Attachment avoidance score",
+        "Boredom Susceptibility",
+        "Creative risk-taking tendency",
+        "Ethical practices",
+        "Liberalism",
+        "Preference for Home-Cooked vs Restaurant Meals",
+        "Preferred epistemology",
+        "Risktaking",
+        "Safety compliance",
+        "Type of Support Preferred (Emotional vs. Practical)"
+      ]
+    }
+  }
+]

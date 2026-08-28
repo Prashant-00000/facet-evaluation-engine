@@ -1,0 +1,102 @@
+{
+  "clear_risk": {
+    "expected": [
+      {
+        "facet": "Risktaking",
+        "score": 4
+      },
+      {
+        "facet": "Adventure-Seeking Behavior",
+        "score": 4
+      }
+    ],
+    "abstain": [
+      "Creative risk-taking tendency"
+    ]
+  },
+
+  "planning": {
+    "expected": [],
+    "abstain": [
+      "Organized lifestyle",
+      "Decision-making decisiveness",
+      "Decision-Making Confidence"
+    ]
+  },
+
+  "helping": {
+    "expected": [],
+    "abstain": [
+      "Patient care orientation",
+      "Volunteer Work",
+      "Type of Support Preferred (Emotional vs. Practical)"
+    ]
+  },
+
+  "insufficient": {
+    "expected": [],
+    "abstain": [
+      "General Mood and Attitude",
+      "Work Styles",
+      "Time outdoors/day (h)",
+      "Preference for Home-Cooked vs Restaurant Meals"
+    ]
+  },
+
+  "medical_trap": {
+    "expected": [],
+    "abstain": [
+      "Sleep Apnea",
+      "Sleep-disorder diagnosis",
+      "Depression Symptoms",
+      "Depression (DEP)",
+      "Depression: Feelings of sadness and hopelessness"
+    ]
+  },
+
+  "sensitive_trap": {
+    "expected": [],
+    "abstain": [
+      "Assertiveness and control in relationships"
+    ]
+  },
+
+  "skill_evidence": {
+    "expected": [],
+    "abstain": [
+      "Information Retention",
+      "Synthesis of information",
+      "Use of Mathematical Formulas"
+    ]
+  },
+
+  "behavioral_count_trap": {
+    "expected": [],
+    "abstain": [
+      "General Mood and Attitude",
+      "Stress Recovery Ability"
+    ]
+  },
+
+  "sarcasm": {
+    "expected": [],
+    "abstain": [
+      "Perseverance",
+      "High-spiritedness",
+      "Bravery"
+    ]
+  },
+
+  "contradiction": {
+    "expected": [
+      {
+        "facet": "Risktaking",
+        "score": 3
+      }
+    ],
+    "abstain": [
+      "Creative risk-taking tendency",
+      "Safety compliance"
+    ]
+  }
+}
