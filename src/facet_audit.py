@@ -4,174 +4,86 @@ from src.taxonomy import (
     normalize_facet,
     extract_number,
     classify_facet,
+    has_sensitive_override,
 )
-
 
 INPUT_FILE = "data/facets_raw.csv"
 OUTPUT_FILE = "data/facets_enriched.csv"
 
-
 def get_observability(facet_type):
-    """
-    Decide whether a facet can potentially be evaluated
-    from conversational evidence.
-    """
-
-    if facet_type in {
-        "medical_biological",
-        "cognitive_ability_test",
-        "behavioral_log_count",
-        "biographical_external",
-        "spiritual_religious_practice",
-        "astrology_pseudoscience",
-        "malformed_header",
-    }:
+    if facet_type in {"medical_biological","cognitive_ability_test","behavioral_log_count",
+                       "biographical_external","spiritual_religious_practice",
+                       "astrology_pseudoscience","malformed_header"}:
         return "false"
-
-    if facet_type in {
-        "clinical_symptom",
-        "skill_knowledge",
-    }:
+    if facet_type in {"clinical_symptom","skill_knowledge"}:
         return "conditional"
-
     return "true"
 
-
-def get_sensitivity(facet_type):
+def get_sensitivity(facet_type, raw_value):
     """
-    Assign a preliminary sensitivity level.
+    Sensitivity is derived from facet_type first, then escalated
+    (never downgraded) if the raw facet content itself touches a
+    sensitive topic regardless of category. See taxonomy.py's
+    SENSITIVE_OVERRIDE_PHRASES for the rationale.
     """
+    if facet_type in {"medical_biological","clinical_symptom"}:
+        base = "high"
+    elif facet_type in {"cognitive_ability_test","biographical_external",
+                         "spiritual_religious_practice","astrology_pseudoscience"}:
+        base = "medium"
+    else:
+        base = "low"
 
-    if facet_type in {
-        "medical_biological",
-        "clinical_symptom",
-    }:
+    if has_sensitive_override(raw_value):
         return "high"
+    return base
 
-    if facet_type in {
-        "cognitive_ability_test",
-        "biographical_external",
-        "spiritual_religious_practice",
-        "astrology_pseudoscience",
-    }:
-        return "medium"
-
-    return "low"
-
-
-def get_abstention_reason(facet_type):
-    """
-    Explain why a facet should not automatically be scored.
-    """
-
+def get_abstention_reason(facet_type, raw_value, sensitivity):
     reasons = {
-        "medical_biological":
-            "Requires medical, laboratory, genetic, or biological evidence.",
-
-        "clinical_symptom":
-            "Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.",
-
-        "cognitive_ability_test":
-            "Requires an administered cognitive or ability assessment.",
-
-        "behavioral_log_count":
-            "Requires quantified behavioral or activity data.",
-
-        "biographical_external":
-            "Requires explicit biographical or external evidence.",
-
-        "spiritual_religious_practice":
-            "Requires explicit information about the relevant practice or external activity.",
-
-        "astrology_pseudoscience":
-            "Cannot be established from ordinary conversation.",
-
-        "malformed_header":
-            "Header-like or malformed entry; excluded from scoring.",
+        "medical_biological": "Requires medical, laboratory, genetic, or biological evidence.",
+        "clinical_symptom": "Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.",
+        "cognitive_ability_test": "Requires an administered cognitive or ability assessment.",
+        "behavioral_log_count": "Requires quantified behavioral or activity data.",
+        "biographical_external": "Requires explicit biographical or external evidence.",
+        "spiritual_religious_practice": "Requires explicit information about the relevant practice or external activity.",
+        "astrology_pseudoscience": "Cannot be established from ordinary conversation.",
+        "malformed_header": "Header-like or malformed entry; excluded from scoring.",
     }
+    reason = reasons.get(facet_type, "")
 
-    return reasons.get(facet_type, "")
+    # Content-based sensitivity override: even facet_types that are
+    # otherwise scoreable (e.g. personality_trait) need an explicit
+    # caution note when the raw content is high-sensitivity, so a
+    # downstream scorer doesn't treat e.g. "Kink-interest diversity"
+    # the same as "Merriness".
+    if has_sensitive_override(raw_value) and not reason:
+        reason = ("Sensitive-topic facet; only score on explicit, clearly "
+                   "volunteered evidence, never inferred or probed for.")
 
+    return reason
 
 def get_scoring_definition(facet_type):
-    """
-    Provide a generic five-level scoring framework.
-
-    Later we can make these definitions more facet-specific.
-    """
-
-    if facet_type in {
-        "medical_biological",
-        "cognitive_ability_test",
-        "behavioral_log_count",
-        "biographical_external",
-        "spiritual_religious_practice",
-        "astrology_pseudoscience",
-        "malformed_header",
-    }:
+    if facet_type in {"medical_biological","cognitive_ability_test","behavioral_log_count",
+                       "biographical_external","spiritual_religious_practice",
+                       "astrology_pseudoscience","malformed_header"}:
         return ""
-
-    return (
-        "1=very low evidence, "
-        "2=low evidence, "
-        "3=moderate evidence, "
-        "4=strong evidence, "
-        "5=very strong evidence"
-    )
-
+    return "1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence"
 
 def main():
-    # Read the original raw dataset.
     df = pd.read_csv(INPUT_FILE)
-
-    # Preserve the original facet exactly.
     df["raw_value"] = df["Facets"]
-
-    # Normalize the facet for processing/retrieval.
     df["normalized_value"] = df["Facets"].apply(normalize_facet)
-
-    # Extract leading numeric IDs when present.
     df["extracted_id"] = df["Facets"].apply(extract_number)
-
-    # Classify each facet.
     df["facet_type"] = df["Facets"].apply(classify_facet)
-
-    # Determine observability.
-    df["conversation_observable"] = df["facet_type"].apply(
-        get_observability
+    df["conversation_observable"] = df["facet_type"].apply(get_observability)
+    df["sensitivity"] = df.apply(lambda r: get_sensitivity(r["facet_type"], r["raw_value"]), axis=1)
+    df["scoring_definition"] = df["facet_type"].apply(get_scoring_definition)
+    df["abstention_reason"] = df.apply(
+        lambda r: get_abstention_reason(r["facet_type"], r["raw_value"], r["sensitivity"]), axis=1
     )
-
-    # Determine sensitivity.
-    df["sensitivity"] = df["facet_type"].apply(
-        get_sensitivity
-    )
-
-    # Add scoring definition.
-    df["scoring_definition"] = df["facet_type"].apply(
-        get_scoring_definition
-    )
-
-    # Add abstention reason.
-    df["abstention_reason"] = df["facet_type"].apply(
-        get_abstention_reason
-    )
-
-    # Save the enriched dataset.
     df.to_csv(OUTPUT_FILE, index=False)
-
-    print("=" * 60)
-    print("FACET AUDIT COMPLETE")
-    print("=" * 60)
-
-    print(f"\nInput rows: {len(df)}")
-    print(f"Output file: {OUTPUT_FILE}")
-
-    print("\nFacet type counts:")
-    print(df["facet_type"].value_counts().to_string())
-
-    print("\nObservability counts:")
-    print(df["conversation_observable"].value_counts().to_string())
-
+    print(f"rows: {len(df)}")
+    print(df["sensitivity"].value_counts().to_string())
 
 if __name__ == "__main__":
     main()

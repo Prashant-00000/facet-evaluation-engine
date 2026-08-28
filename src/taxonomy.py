@@ -270,6 +270,17 @@ BEHAVIORAL_PREFERENCE_PHRASES = [
 
 
 # ============================================================
+# SENSITIVITY OVERRIDES
+# ============================================================
+
+SENSITIVE_OVERRIDE_PHRASES = [
+    "kink",
+    "physical-violence",
+    "drug-use",
+]
+
+
+# ============================================================
 # NORMALIZATION
 # ============================================================
 
@@ -323,6 +334,11 @@ def contains_phrase(text: str, phrases: list) -> bool:
             return True
 
     return False
+
+
+def has_sensitive_override(value: str) -> bool:
+    """Detect sensitive topics that require high-sensitivity handling."""
+    return contains_phrase(normalize_facet(value), SENSITIVE_OVERRIDE_PHRASES)
 
 
 # ============================================================

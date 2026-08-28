@@ -162,7 +162,7 @@ Bravery,Bravery,bravery,,personality_trait,true,low,"1=very low evidence, 2=low 
 Childhood Experiences,Childhood Experiences,childhood experiences,,biographical_external,false,medium,,Requires explicit biographical or external evidence.
 Data-sharing consent level,Data-sharing consent level,data-sharing consent level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
 Vision-check frequency,Vision-check frequency,vision-check frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
-Physical-violence exposure,Physical-violence exposure,physical-violence exposure,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Physical-violence exposure,Physical-violence exposure,physical-violence exposure,,personality_trait,true,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence","Sensitive-topic facet; only score on explicit, clearly volunteered evidence, never inferred or probed for."
 Macronutrient ratio: fat,Macronutrient ratio: fat,macronutrient ratio: fat,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
 Cooking and Culinary Arts,Cooking and Culinary Arts,cooking and culinary arts,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
 Language use,Language use,language use,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
@@ -245,7 +245,7 @@ Graffiti appreciation,Graffiti appreciation,graffiti appreciation,,personality_t
 Preference for Home-Cooked vs Restaurant Meals,Preference for Home-Cooked vs Restaurant Meals,preference for home-cooked vs restaurant meals,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
 Immune-response age,Immune-response age,immune-response age,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
 Social-cognition variable: Cognitive Empathy,Social-cognition variable: Cognitive Empathy,social-cognition variable: cognitive empathy,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
-Kink-interest diversity,Kink-interest diversity,kink-interest diversity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Kink-interest diversity,Kink-interest diversity,kink-interest diversity,,personality_trait,true,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence","Sensitive-topic facet; only score on explicit, clearly volunteered evidence, never inferred or probed for."
 Adaptability and Flexibility:,Adaptability and Flexibility:,adaptability and flexibility:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
 Judging Consequences,Judging Consequences,judging consequences,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
 Harmfulness,Harmfulness,harmfulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
@@ -296,7 +296,7 @@ Attachment style: Secure,Attachment style: Secure,attachment style: secure,,pers
 Intelligence Quotient (IQ),Intelligence Quotient (IQ),intelligence quotient (iq),,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
 Blog-subscriber count,Blog-subscriber count,blog-subscriber count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
 Non-Verbal Communication Skills,Non-Verbal Communication Skills,non-verbal communication skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
-Drug-use history,Drug-use history,drug-use history,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Drug-use history,Drug-use history,drug-use history,,behavioral_preference,true,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence","Sensitive-topic facet; only score on explicit, clearly volunteered evidence, never inferred or probed for."
 Commute time/day,Commute time/day,commute time/day,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
 Decision-making speed,Decision-making speed,decision-making speed,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
 Psychological construct: Excuse-Making tendency,Psychological construct: Excuse-Making tendency,psychological construct: excuse-making tendency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
