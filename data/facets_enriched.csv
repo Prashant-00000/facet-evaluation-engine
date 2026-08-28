@@ -1,0 +1,400 @@
+Facets,raw_value,normalized_value,extracted_id,facet_type,conversation_observable,sensitivity,scoring_definition,abstention_reason
+Risktaking,Risktaking,risktaking,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Naivety,Naivety,naivety,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Acidity,Acidity,acidity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Democratic Leadership:,Democratic Leadership:,democratic leadership:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Common-sense,Common-sense,common-sense,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Hesitation,Hesitation,hesitation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Discontentment,Discontentment,discontentment,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Overprotectiveness,Overprotectiveness,overprotectiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Merriness,Merriness,merriness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Emotionalism,Emotionalism,emotionalism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Self-improvement,Self-improvement,self-improvement,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Statistical Reasoning,Statistical Reasoning,statistical reasoning,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Assertiveness and control in relationships,Assertiveness and control in relationships,assertiveness and control in relationships,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Cunningness,Cunningness,cunningness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Adventure-Seeking Behavior,Adventure-Seeking Behavior,adventure-seeking behavior,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Compassion Fatigue,Compassion Fatigue,compassion fatigue,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Moroseness,Moroseness,moroseness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Specialist,Specialist,specialist,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Aloofness,Aloofness,aloofness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Genuine,Genuine,genuine,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Determinedness,Determinedness,determinedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+HonestyHumility:,HonestyHumility:,honestyhumility:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Relationship Building Themes:,Relationship Building Themes:,relationship building themes:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Pure Challenge,Pure Challenge,pure challenge,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Numerical Reasoning Subcomponents:,Numerical Reasoning Subcomponents:,numerical reasoning subcomponents:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Openness,Openness,openness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+SelfEsteem,SelfEsteem,selfesteem,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Comparing alphanumeric data,Comparing alphanumeric data,comparing alphanumeric data,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Big-heartedness,Big-heartedness,big-heartedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Compulsive activities,Compulsive activities,compulsive activities,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Disrespect,Disrespect,disrespect,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+FSH level,FSH level,fsh level,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Self Perspective,Self Perspective,self perspective,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Desperation,Desperation,desperation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Affiliation Motivation:,Affiliation Motivation:,affiliation motivation:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Anatomy knowledge,Anatomy knowledge,anatomy knowledge,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Passive-Aggressive,Passive-Aggressive,passive-aggressive,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Presence of Spiritual Pain,Presence of Spiritual Pain,presence of spiritual pain,,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Role of Spirituality in Community Involvement,Role of Spirituality in Community Involvement,role of spirituality in community involvement,,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Structure,Structure,structure,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Eco-tourism trips,Eco-tourism trips,eco-tourism trips,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Chivalrousness,Chivalrousness,chivalrousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Pilgrimage participation count,Pilgrimage participation count,pilgrimage participation count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Mindfulness facet: Observing,Mindfulness facet: Observing,mindfulness facet: observing,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Submissiveness,Submissiveness,submissiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Training-cycle length,Training-cycle length,training-cycle length,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sensitiveness,Sensitiveness,sensitiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Negative Affect Frequency,Negative Affect Frequency,negative affect frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Innovation and Creativity Components:,Innovation and Creativity Components:,innovation and creativity components:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Achievement Motivation:,Achievement Motivation:,achievement motivation:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Feedback-giving frequency,Feedback-giving frequency,feedback-giving frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Dance-cardio sessions,Dance-cardio sessions,dance-cardio sessions,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Enthusiasm,Enthusiasm,enthusiasm,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Social Desirability tendency,Psychological construct: Social Desirability tendency,psychological construct: social desirability tendency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Inattentiveness,Inattentiveness,inattentiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Unassertiveness,Unassertiveness,unassertiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Decision-making decisiveness,Decision-making decisiveness,decision-making decisiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sense-of-coherence score,Sense-of-coherence score,sense-of-coherence score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Justice-mindedness,Justice-mindedness,justice-mindedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Subscription count,Subscription count,subscription count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Depression Symptoms,Depression Symptoms,depression symptoms,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Spatial perception,Spatial perception,spatial perception,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Brevity,Brevity,brevity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Orderliness,Orderliness,orderliness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Multiculturalism,Multiculturalism,multiculturalism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Creative risk-taking tendency,Creative risk-taking tendency,creative risk-taking tendency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Inefficiency,Inefficiency,inefficiency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Network basics,Network basics,network basics,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Alphabetical filing skills,Alphabetical filing skills,alphabetical filing skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Work Styles,Work Styles,work styles,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Character strength: Perseverance,Character strength: Perseverance,character strength: perseverance,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Competition,Competition,competition,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Logical Sequence Identification,Logical Sequence Identification,logical sequence identification,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Sustainable-transport usage,Sustainable-transport usage,sustainable-transport usage,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Hardworking,Hardworking,hardworking,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Emotional-intelligence measure: Impulsiveness,Emotional-intelligence measure: Impulsiveness,emotional-intelligence measure: impulsiveness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Dishonesty,Dishonesty,dishonesty,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Preferred epistemology,Preferred epistemology,preferred epistemology,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Memory for Sounds,Memory for Sounds,memory for sounds,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Sportsmanship rating,Sportsmanship rating,sportsmanship rating,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Immaturity,Immaturity,immaturity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Health-literacy level,Health-literacy level,health-literacy level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Estimating Calculations,Estimating Calculations,estimating calculations,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Depression: Feelings of sadness and hopelessness,Depression: Feelings of sadness and hopelessness,depression: feelings of sadness and hopelessness,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Synthesis of information,Synthesis of information,synthesis of information,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Leadership Potential:,Leadership Potential:,leadership potential:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Ethical standards,Ethical standards,ethical standards,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+High-spiritedness,High-spiritedness,high-spiritedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Critical reasoning,Critical reasoning,critical reasoning,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Sleep-disorder diagnosis,Sleep-disorder diagnosis,sleep-disorder diagnosis,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Listening Skills Subcomponents:,Listening Skills Subcomponents:,listening skills subcomponents:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Collaboration,Collaboration,collaboration,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Precision of Movements,Precision of Movements,precision of movements,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Social Boldness,Social Boldness,social boldness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Auditory memory,Auditory memory,auditory memory,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Psychomotor Ability Subcomponents:,Psychomotor Ability Subcomponents:,psychomotor ability subcomponents:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Organized lifestyle,Organized lifestyle,organized lifestyle,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Skill-endorsements count,Skill-endorsements count,skill-endorsements count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Mysteriousness,Mysteriousness,mysteriousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Cultural Identity,Cultural Identity,cultural identity,,biographical_external,false,medium,,Requires explicit biographical or external evidence.
+Intrinsic Motivation,Intrinsic Motivation,intrinsic motivation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Impartial-mindedness,Impartial-mindedness,impartial-mindedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Burnout Symptoms,Burnout Symptoms,burnout symptoms,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Holiness,Holiness,holiness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Selfcontrol,Selfcontrol,selfcontrol,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+SelfDirectedness,SelfDirectedness,selfdirectedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Encouraging participation,Encouraging participation,encouraging participation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Impracticalness,Impracticalness,impracticalness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Meeting Deadlines,Meeting Deadlines,meeting deadlines,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Data Analysis,Data Analysis,data analysis,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Social Interaction Skills,Social Interaction Skills,social interaction skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychoticism,Psychoticism,psychoticism,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Ethical leadership rating,Ethical leadership rating,ethical leadership rating,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Slothfulness,Slothfulness,slothfulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Happiness,Happiness,happiness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Contentment Levels,Contentment Levels,contentment levels,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Neuroticism,Neuroticism,neuroticism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Desire for excellence,Desire for excellence,desire for excellence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Perceiving,Perceiving,perceiving,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Liberalism,Liberalism,liberalism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Inversion comfort level,Inversion comfort level,inversion comfort level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Affection,Affection,affection,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Numeric Filing Skills,Numeric Filing Skills,numeric filing skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Martyrdom,Martyrdom,martyrdom,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Parathyroid-hormone level,Parathyroid-hormone level,parathyroid-hormone level,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Seeking approval,Seeking approval,seeking approval,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Judging (J):,Judging (J):,judging (j):,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Big Five facet Openness – Artistic Interests,Big Five facet Openness – Artistic Interests,big five facet openness – artistic interests,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Operant-Learning rate,Psychological construct: Operant-Learning rate,psychological construct: operant-learning rate,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Need for Achievement level,Psychological construct: Need for Achievement level,psychological construct: need for achievement level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Cantankerousness,Cantankerousness,cantankerousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Material properties knowledge,Material properties knowledge,material properties knowledge,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Hostility,Hostility,hostility,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Independence,Independence,independence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+800. Sufi practice: Sufi retreat attendance count,800. Sufi practice: Sufi retreat attendance count,800. sufi practice: sufi retreat attendance count,800.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Chromatin-accessibility score,Chromatin-accessibility score,chromatin-accessibility score,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+644. Spiritual virtue: Humility practice index,644. Spiritual virtue: Humility practice index,644. spiritual virtue: humility practice index,644.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+754. I Ching hexagram 36 resonance level,754. I Ching hexagram 36 resonance level,754. i ching hexagram 36 resonance level,754.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Well-being component: Engagement,Well-being component: Engagement,well-being component: engagement,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Need for social interaction,Need for social interaction,need for social interaction,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Peer-collaboration hours,Peer-collaboration hours,peer-collaboration hours,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Arts and Humanities,Arts and Humanities,arts and humanities,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+596. Religious practice: Quran khatam cycles per year,596. Religious practice: Quran khatam cycles per year,596. religious practice: quran khatam cycles per year,596.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+926. Bahá’í spiritual metric: Ridván festival participation,926. Bahá’í spiritual metric: Ridván festival participation,926. bahá’í spiritual metric: ridván festival participation,926.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Compassion,Compassion,compassion,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Information Retention,Information Retention,information retention,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Eye-contact duration,Eye-contact duration,eye-contact duration,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Self-righteousness,Self-righteousness,self-righteousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+General Mood and Attitude,General Mood and Attitude,general mood and attitude,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Serotonin transporter availability,Serotonin transporter availability,serotonin transporter availability,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Contribution to Group Goals,Contribution to Group Goals,contribution to group goals,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Dignity,Dignity,dignity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+HEXACO Personality Inventory Facets:,HEXACO Personality Inventory Facets:,hexaco personality inventory facets:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Evaluating Solutions,Evaluating Solutions,evaluating solutions,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Input,Input,input,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Discreteness,Discreteness,discreteness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+607. Energy-healing practice: Reiki sessions / year,607. Energy-healing practice: Reiki sessions / year,607. energy-healing practice: reiki sessions / year,607.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+692. Astrology: Rising sign is Scorpio,692. Astrology: Rising sign is Scorpio,692. astrology: rising sign is scorpio,692.0,astrology_pseudoscience,false,medium,,Cannot be established from ordinary conversation.
+Character strength: Social Intelligence,Character strength: Social Intelligence,character strength: social intelligence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Bravery,Bravery,bravery,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Childhood Experiences,Childhood Experiences,childhood experiences,,biographical_external,false,medium,,Requires explicit biographical or external evidence.
+Data-sharing consent level,Data-sharing consent level,data-sharing consent level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Vision-check frequency,Vision-check frequency,vision-check frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Physical-violence exposure,Physical-violence exposure,physical-violence exposure,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Macronutrient ratio: fat,Macronutrient ratio: fat,macronutrient ratio: fat,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Cooking and Culinary Arts,Cooking and Culinary Arts,cooking and culinary arts,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Language use,Language use,language use,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Dance-style mastery diversity,Dance-style mastery diversity,dance-style mastery diversity,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Satya Adherence,Satya Adherence,satya adherence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Ethnocentrism,Ethnocentrism,ethnocentrism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Emotional Boundaries,Emotional Boundaries,emotional boundaries,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Creativity in solutions,Creativity in solutions,creativity in solutions,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Hope scale,Psychological construct: Hope scale,psychological construct: hope scale,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+565. Practice frequency: Walking meditation,565. Practice frequency: Walking meditation,565. practice frequency: walking meditation,565.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Depression (DEP),Depression (DEP),depression (dep),,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Understanding Mathematical Concepts,Understanding Mathematical Concepts,understanding mathematical concepts,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Hypomania (Ma),Hypomania (Ma),hypomania (ma),,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Goal-Directed Behavior,Goal-Directed Behavior,goal-directed behavior,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Depth of Emotional Connections,Depth of Emotional Connections,depth of emotional connections,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Binding foundations index,Binding foundations index,binding foundations index,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Ego Dissolution Frequency,Ego Dissolution Frequency,ego dissolution frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Activator: Turning thoughts into action,Activator: Turning thoughts into action,activator: turning thoughts into action,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+967. Gnostic spiritual metric: Archon meditation frequency,967. Gnostic spiritual metric: Archon meditation frequency,967. gnostic spiritual metric: archon meditation frequency,967.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Exemplariness,Exemplariness,exemplariness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Moral and Ethical Parameters:,Moral and Ethical Parameters:,moral and ethical parameters:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Submission:,Submission:,submission:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Frankness,Frankness,frankness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Psychological Safety climate,Psychological construct: Psychological Safety climate,psychological construct: psychological safety climate,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Self-Compassion total,Psychological construct: Self-Compassion total,psychological construct: self-compassion total,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Executive-Function composite,Psychological construct: Executive-Function composite,psychological construct: executive-function composite,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Rebelliousness,Rebelliousness,rebelliousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Volunteer Work,Volunteer Work,volunteer work,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Intellect,Intellect,intellect,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Use of Mathematical Formulas,Use of Mathematical Formulas,use of mathematical formulas,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Coarseness,Coarseness,coarseness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Behavioral Tendencies and Subcomponents:,Behavioral Tendencies and Subcomponents:,behavioral tendencies and subcomponents:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Sensitivity,Sensitivity,sensitivity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Divided Attention Ability,Divided Attention Ability,divided attention ability,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Psychological construct: Acculturative Stress score,Psychological construct: Acculturative Stress score,psychological construct: acculturative stress score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Dauntlessness,Dauntlessness,dauntlessness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Concreteness,Concreteness,concreteness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Hysteria (Hy),Hysteria (Hy),hysteria (hy),,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+911. Jewish spiritual metric: Sukkot lulav-shaking days,911. Jewish spiritual metric: Sukkot lulav-shaking days,911. jewish spiritual metric: sukkot lulav-shaking days,911.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Sentence Structure,Sentence Structure,sentence structure,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Esteem Needs,Esteem Needs,esteem needs,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Understanding mechanical concepts,Understanding mechanical concepts,understanding mechanical concepts,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Auditory Memory Recall,Auditory Memory Recall,auditory memory recall,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Storytelling proficiency,Storytelling proficiency,storytelling proficiency,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Music-lessons years,Music-lessons years,music-lessons years,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Warmheartedness,Warmheartedness,warmheartedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Self-effacement,Self-effacement,self-effacement,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Outspokenness,Outspokenness,outspokenness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sleep-environment temperature,Sleep-environment temperature,sleep-environment temperature,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Comprehension of spoken information,Comprehension of spoken information,comprehension of spoken information,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Blissfulness,Blissfulness,blissfulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sequential Memory Recall,Sequential Memory Recall,sequential memory recall,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Withdrawnness,Withdrawnness,withdrawnness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+892. Hindu spiritual metric: Yoga discipline hours / week,892. Hindu spiritual metric: Yoga discipline hours / week,892. hindu spiritual metric: yoga discipline hours / week,892.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Conservatism,Conservatism,conservatism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Adaptability and Flexibility Subcomponents:,Adaptability and Flexibility Subcomponents:,adaptability and flexibility subcomponents:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+898. Hindu spiritual metric: Vrata vows observed / year,898. Hindu spiritual metric: Vrata vows observed / year,898. hindu spiritual metric: vrata vows observed / year,898.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Ardency,Ardency,ardency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Aesthetic Appreciation,Aesthetic Appreciation,aesthetic appreciation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Transactional Leadership:,Transactional Leadership:,transactional leadership:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Value orientation: Universalism,Value orientation: Universalism,value orientation: universalism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Perseverance,Perseverance,perseverance,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Regularity of Self-Reflection,Regularity of Self-Reflection,regularity of self-reflection,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Controlling Reactions,Controlling Reactions,controlling reactions,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Cultural Intelligence – Behavioral,Psychological construct: Cultural Intelligence – Behavioral,psychological construct: cultural intelligence – behavioral,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Metabolic Rate (Low or High),Metabolic Rate (Low or High),metabolic rate (low or high),,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Dietary Habits,Dietary Habits,dietary habits,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Significance: Desire to make an impact,Significance: Desire to make an impact,significance: desire to make an impact,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Resilience-Trait score,Psychological construct: Resilience-Trait score,psychological construct: resilience-trait score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Boredom Susceptibility,Boredom Susceptibility,boredom susceptibility,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Consummatory Pleasure scale,Psychological construct: Consummatory Pleasure scale,psychological construct: consummatory pleasure scale,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Leadership Styles and Behaviors:,Leadership Styles and Behaviors:,leadership styles and behaviors:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+723. I Ching hexagram 5 resonance level,723. I Ching hexagram 5 resonance level,723. i ching hexagram 5 resonance level,723.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Macronutrient ratio: carbs,Macronutrient ratio: carbs,macronutrient ratio: carbs,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Passport-stamps count,Passport-stamps count,passport-stamps count,,biographical_external,false,medium,,Requires explicit biographical or external evidence.
+Local-food sourcing %,Local-food sourcing %,local-food sourcing %,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Patient care orientation,Patient care orientation,patient care orientation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Soft-skill training hours,Soft-skill training hours,soft-skill training hours,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Graffiti appreciation,Graffiti appreciation,graffiti appreciation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Preference for Home-Cooked vs Restaurant Meals,Preference for Home-Cooked vs Restaurant Meals,preference for home-cooked vs restaurant meals,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Immune-response age,Immune-response age,immune-response age,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Social-cognition variable: Cognitive Empathy,Social-cognition variable: Cognitive Empathy,social-cognition variable: cognitive empathy,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Kink-interest diversity,Kink-interest diversity,kink-interest diversity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Adaptability and Flexibility:,Adaptability and Flexibility:,adaptability and flexibility:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Judging Consequences,Judging Consequences,judging consequences,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Harmfulness,Harmfulness,harmfulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Affinity,Affinity,affinity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Abasement,Abasement,abasement,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Chronic pain presence,Chronic pain presence,chronic pain presence,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+520. Discernment practice hours / week,520. Discernment practice hours / week,520. discernment practice hours / week,520.0,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Initiative,Initiative,initiative,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Courageousness,Courageousness,courageousness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Joyfulness,Joyfulness,joyfulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Suspicion,Suspicion,suspicion,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Basophil count,Basophil count,basophil count,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Attachment avoidance score,Attachment avoidance score,attachment avoidance score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Time Orientation End Points:,Time Orientation End Points:,time orientation end points:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Brazenness,Brazenness,brazenness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Talkativeness,Talkativeness,talkativeness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Equitableness,Equitableness,equitableness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Ideas generated/day,Ideas generated/day,ideas generated/day,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Originality,Originality,originality,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Fearfulness: Fear of physical dangers,Fearfulness: Fear of physical dangers,fearfulness: fear of physical dangers,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Dance rehearsal hours/week,Dance rehearsal hours/week,dance rehearsal hours/week,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+561. Practice frequency: Mantra meditation,561. Practice frequency: Mantra meditation,561. practice frequency: mantra meditation,561.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Public-transport km/week,Public-transport km/week,public-transport km/week,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Social Desirability Bias,Social Desirability Bias,social desirability bias,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+761. I Ching hexagram 43 resonance level,761. I Ching hexagram 43 resonance level,761. i ching hexagram 43 resonance level,761.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Disagreeableness,Disagreeableness,disagreeableness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Participation in Community Activities,Participation in Community Activities,participation in community activities,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Impudence,Impudence,impudence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Analogies,Analogies,analogies,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Clumsiness,Clumsiness,clumsiness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Tendency Toward Compromise or Confrontation,Tendency Toward Compromise or Confrontation,tendency toward compromise or confrontation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+737. I Ching hexagram 19 resonance level,737. I Ching hexagram 19 resonance level,737. i ching hexagram 19 resonance level,737.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Robotics-interaction frequency,Robotics-interaction frequency,robotics-interaction frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Casual lifestyle,Casual lifestyle,casual lifestyle,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Collectedness,Collectedness,collectedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Reliance on context,Reliance on context,reliance on context,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Delegation skills,Delegation skills,delegation skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+767. I Ching hexagram 49 resonance level,767. I Ching hexagram 49 resonance level,767. i ching hexagram 49 resonance level,767.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Managing emotions,Managing emotions,managing emotions,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Scripture memorization verses,Scripture memorization verses,scripture memorization verses,,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Conventional,Conventional,conventional,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+890. Hindu spiritual metric: Bhagavad-Gita study hours,890. Hindu spiritual metric: Bhagavad-Gita study hours,890. hindu spiritual metric: bhagavad-gita study hours,890.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Open-source contributions,Open-source contributions,open-source contributions,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Social Conformity tendency,Psychological construct: Social Conformity tendency,psychological construct: social conformity tendency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Individuality,Individuality,individuality,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+740. I Ching hexagram 22 resonance level,740. I Ching hexagram 22 resonance level,740. i ching hexagram 22 resonance level,740.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Attachment style: Secure,Attachment style: Secure,attachment style: secure,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Intelligence Quotient (IQ),Intelligence Quotient (IQ),intelligence quotient (iq),,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Blog-subscriber count,Blog-subscriber count,blog-subscriber count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Non-Verbal Communication Skills,Non-Verbal Communication Skills,non-verbal communication skills,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Drug-use history,Drug-use history,drug-use history,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Commute time/day,Commute time/day,commute time/day,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Decision-making speed,Decision-making speed,decision-making speed,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Psychological construct: Excuse-Making tendency,Psychological construct: Excuse-Making tendency,psychological construct: excuse-making tendency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Peer-to-peer lending usage,Peer-to-peer lending usage,peer-to-peer lending usage,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Psychological construct: Eye-Contact avoidance score,Psychological construct: Eye-Contact avoidance score,psychological construct: eye-contact avoidance score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Social-cognition variable: Faux Pas Recognition accuracy,Social-cognition variable: Faux Pas Recognition accuracy,social-cognition variable: faux pas recognition accuracy,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Conscientiousness (C):,Conscientiousness (C):,conscientiousness (c):,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Use of Nature as a Stress Reliever,Use of Nature as a Stress Reliever,use of nature as a stress reliever,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Attitude toward learning,Attitude toward learning,attitude toward learning,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Conscientiousness Facets:,Conscientiousness Facets:,conscientiousness facets:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Honesty-humility trait score,Honesty-humility trait score,honesty-humility trait score,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Digital-nomad months,Digital-nomad months,digital-nomad months,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+516. Religious coping – Negative,516. Religious coping – Negative,516. religious coping – negative,516.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Snacking Behavior,Snacking Behavior,snacking behavior,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Aura-color perception,Aura-color perception,aura-color perception,,astrology_pseudoscience,false,medium,,Cannot be established from ordinary conversation.
+638. Sacred text engagement: Zohar (Kabbalah) study hours,638. Sacred text engagement: Zohar (Kabbalah) study hours,638. sacred text engagement: zohar (kabbalah) study hours,638.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Motivational Drivers:,Motivational Drivers:,motivational drivers:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Cloud-backup frequency,Cloud-backup frequency,cloud-backup frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Learning Style,Learning Style,learning style,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+872. Islamic practice: Seerah study hours,872. Islamic practice: Seerah study hours,872. islamic practice: seerah study hours,872.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Safety compliance,Safety compliance,safety compliance,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sensationalism,Sensationalism,sensationalism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Nationality,Nationality,nationality,,biographical_external,false,medium,,Requires explicit biographical or external evidence.
+Drollness,Drollness,drollness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Cooperation,Cooperation,cooperation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Breakfast-skipping frequency,Breakfast-skipping frequency,breakfast-skipping frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+922. Sikh spiritual metric: Kirtan participation frequency,922. Sikh spiritual metric: Kirtan participation frequency,922. sikh spiritual metric: kirtan participation frequency,922.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Impulsivity,Impulsivity,impulsivity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Museum visits/year,Museum visits/year,museum visits/year,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Choir participation years,Choir participation years,choir participation years,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Delegation Ability,Delegation Ability,delegation ability,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+788. Kabbalah sephira balance: Tiferet,788. Kabbalah sephira balance: Tiferet,788. kabbalah sephira balance: tiferet,788.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Desire to influence others,Desire to influence others,desire to influence others,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Vivacity,Vivacity,vivacity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Genialness,Genialness,genialness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Cognitive measure: Working Memory Index,Cognitive measure: Working Memory Index,cognitive measure: working memory index,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Ethical practices,Ethical practices,ethical practices,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+945. New-Age spiritual metric: Channeling sessions / year,945. New-Age spiritual metric: Channeling sessions / year,945. new-age spiritual metric: channeling sessions / year,945.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Civility,Civility,civility,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Sleep Apnea,Sleep Apnea,sleep apnea,,clinical_symptom,conditional,high,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",Only score when the person explicitly provides sufficient conversational evidence; do not diagnose.
+Classiness,Classiness,classiness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Control over situations,Control over situations,control over situations,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Time outdoors/day (h),Time outdoors/day (h),time outdoors/day (h),,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Effeteness,Effeteness,effeteness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Polygenic risk: cardiovascular disease,Polygenic risk: cardiovascular disease,polygenic risk: cardiovascular disease,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Psychological construct: Identity Diffusion level,Psychological construct: Identity Diffusion level,psychological construct: identity diffusion level,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Learning through movement,Learning through movement,learning through movement,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Caffeine sensitivity gene,Caffeine sensitivity gene,caffeine sensitivity gene,,medical_biological,false,high,,"Requires medical, laboratory, genetic, or biological evidence."
+Hatefulness,Hatefulness,hatefulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Persistence:,Persistence:,persistence:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Psychological construct: Perfectionistic Strivings,Psychological construct: Perfectionistic Strivings,psychological construct: perfectionistic strivings,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Wake-time consistency,Wake-time consistency,wake-time consistency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Numerical Reasoning:,Numerical Reasoning:,numerical reasoning:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Social-cognition variable: Mentalizing network activation,Social-cognition variable: Mentalizing network activation,social-cognition variable: mentalizing network activation,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Patriotism,Patriotism,patriotism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Leadership Styles:,Leadership Styles:,leadership styles:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Servility,Servility,servility,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+742. I Ching hexagram 24 resonance level,742. I Ching hexagram 24 resonance level,742. i ching hexagram 24 resonance level,742.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Enneagram Personality Types:,Enneagram Personality Types:,enneagram personality types:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Stress Recovery Ability,Stress Recovery Ability,stress recovery ability,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Troubleshooting technical issues,Troubleshooting technical issues,troubleshooting technical issues,,skill_knowledge,conditional,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Defense-mechanism tendency: Introjection,Defense-mechanism tendency: Introjection,defense-mechanism tendency: introjection,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Irritability,Irritability,irritability,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Travel-companions diversity,Travel-companions diversity,travel-companions diversity,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+627. Sacred text engagement: Quran surahs memorized,627. Sacred text engagement: Quran surahs memorized,627. sacred text engagement: quran surahs memorized,627.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Trust in others,Trust in others,trust in others,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Gamified-finance-app usage,Gamified-finance-app usage,gamified-finance-app usage,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+823. Buddhist practice: Eightfold Path – Right Intention level,823. Buddhist practice: Eightfold Path – Right Intention level,823. buddhist practice: eightfold path – right intention level,823.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Caffeine intake (mg/day),Caffeine intake (mg/day),caffeine intake (mg/day),,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Comfort with Vulnerability,Comfort with Vulnerability,comfort with vulnerability,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Anticipativeness,Anticipativeness,anticipativeness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Additional Common Parameters and Their End Points:,Additional Common Parameters and Their End Points:,additional common parameters and their end points:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Avoiding:,Avoiding:,avoiding:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+Home-security-system presence,Home-security-system presence,home-security-system presence,,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+HEXACO domain: Honesty-Humility,HEXACO domain: Honesty-Humility,hexaco domain: honesty-humility,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Eating Habits (Home-Cooked vs. Eating Out),Eating Habits (Home-Cooked vs. Eating Out),eating habits (home-cooked vs. eating out),,behavioral_preference,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Decision-Making Confidence,Decision-Making Confidence,decision-making confidence,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Alignment with societal roles,Alignment with societal roles,alignment with societal roles,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Connectedness: Belief in interconnections,Connectedness: Belief in interconnections,connectedness: belief in interconnections,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Quirkiness,Quirkiness,quirkiness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Creative resilience,Creative resilience,creative resilience,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Rapid cognitive processing,Rapid cognitive processing,rapid cognitive processing,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Cordiality,Cordiality,cordiality,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Types of Mindfulness Techniques Used,Types of Mindfulness Techniques Used,types of mindfulness techniques used,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Economic reasoning,Economic reasoning,economic reasoning,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Conformity,Conformity,conformity,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Pet-enrichment activities count,Pet-enrichment activities count,pet-enrichment activities count,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
+Aestheticism,Aestheticism,aestheticism,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Type of Support Preferred (Emotional vs. Practical),Type of Support Preferred (Emotional vs. Practical),type of support preferred (emotional vs. practical),,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Mental Arithmetic Speed,Mental Arithmetic Speed,mental arithmetic speed,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+Patience: Resistance to anger,Patience: Resistance to anger,patience: resistance to anger,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Flawlessness,Flawlessness,flawlessness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Self-Efficacy,Self-Efficacy,self-efficacy,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Computer Skills:,Computer Skills:,computer skills:,,malformed_header,false,low,,Header-like or malformed entry; excluded from scoring.
+899. Jewish spiritual metric: Shabbat candle-lighting consistency,899. Jewish spiritual metric: Shabbat candle-lighting consistency,899. jewish spiritual metric: shabbat candle-lighting consistency,899.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Spelling Accuracy,Spelling Accuracy,spelling accuracy,,cognitive_ability_test,false,medium,,Requires an administered cognitive or ability assessment.
+793. Sufi practice: Dhikr repetitions / day,793. Sufi practice: Dhikr repetitions / day,793. sufi practice: dhikr repetitions / day,793.0,spiritual_religious_practice,false,medium,,Requires explicit information about the relevant practice or external activity.
+Peacefulness,Peacefulness,peacefulness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Doggedness,Doggedness,doggedness,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Decency,Decency,decency,,personality_trait,true,low,"1=very low evidence, 2=low evidence, 3=moderate evidence, 4=strong evidence, 5=very strong evidence",
+Processed-food frequency,Processed-food frequency,processed-food frequency,,behavioral_log_count,false,low,,Requires quantified behavioral or activity data.
