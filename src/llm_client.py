@@ -38,7 +38,26 @@ class MockLLMClient(LLMClient):
         """
 
         return json.dumps({
-            "results": []
+            "results": [
+                {
+                    "facet": "Risktaking",
+                    "score": 4,
+                    "confidence": 0.9,
+                    "evidence": (
+                        "I enjoy taking risks and trying new experiences."
+                    ),
+                    "abstention_reason": None,
+                },
+                {
+                    "facet": "Compassion",
+                    "score": None,
+                    "confidence": 0.2,
+                    "evidence": None,
+                    "abstention_reason": (
+                        "Insufficient conversational evidence."
+                    ),
+                },
+            ]
         })
 
 

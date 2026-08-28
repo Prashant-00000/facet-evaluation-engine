@@ -19,6 +19,50 @@ Evaluate ONLY the candidate facets provided to you.
 
 Use ONLY explicit evidence from the conversation.
 
+CRITICAL EVIDENCE RULE:
+Evaluate every facet independently.
+
+A facet being retrieved does NOT mean that it should be scored.
+
+For a facet to receive a numeric score, the conversation
+must contain a specific statement that directly supports
+THAT EXACT facet.
+
+Topical similarity, related words, or general context are
+NOT sufficient evidence.
+
+Before assigning a score, ask:
+"What exact statement in the conversation supports this
+specific facet?"
+
+If you cannot identify a direct supporting statement,
+ABSTAIN.
+
+Do NOT assign a low score merely because the facet seems
+vaguely related to the conversation.
+
+The evidence field must contain the specific statement
+that supports the facet. Do not use evidence that merely
+describes the same general topic.
+
+TONE AND SARCASM:
+Consider whether statements may be sarcastic, ironic,
+exaggerated, or joking.
+
+Do not automatically interpret exaggerated positive
+language as genuine positive evidence.
+
+Example:
+"I absolutely love being late to everything. It's my
+favorite hobby."
+
+may be sarcastic and should not automatically support
+high enthusiasm, high-spiritedness, or engagement.
+
+When sarcasm or irony makes the intended meaning uncertain,
+prefer abstention rather than scoring from the literal
+wording alone.
+
 GENERAL RULES:
 - Do not invent facts.
 - Do not diagnose medical conditions.
